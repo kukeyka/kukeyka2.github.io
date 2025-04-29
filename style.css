@@ -1,0 +1,277 @@
+        body {
+            background-color: white;
+            margin: 0px;
+        }
+        p{
+            font-family: Brush Script MT, Brush Script Std, cursive;
+        }
+        .top{
+            width: 100%;
+            height: 100px;
+            display: flex;
+            flex-wrap: nowrap;
+            position: fixed;
+            margin-top: 0px;
+            background-color: white;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .left{
+            display: flex;
+            width: 25%;
+            justify-content: space-between;
+            align-items: center;
+            overflow: hidden;
+        }
+        .right{
+            display: flex;
+            width: 25%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .main{
+            display: flex;
+            width: 50%;
+            align-items: center;
+        }
+        .base{
+        background-image: url('kai.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;    
+        }
+        .content{
+            display: flex;
+            align-self: center;
+        }
+        .shapka{
+            height: 100px;
+            width: 100%;
+            background-color: #FFF0F5;
+            margin-top: 0px;
+        }
+        .work{
+            flex-grow: 1;
+            max-width: 100%;
+        }
+        .a1:link, .a1:visited{
+            color:black;
+        }
+        .a1:hover, .a1:active {
+            border-bottom: black;
+            color: rgba(144, 215, 144, 0.8);
+            text-decoration: underline;
+            transition: 0.4s;
+            
+          }
+          .page2{
+            width: 100%;
+            height: 1100px;
+            background-color: black;
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+          }
+          .page2left{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction:column;
+
+          }
+          .page2right{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          }
+        .myportfolio{
+            width: 100%;
+            height: 900px;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            flex-direction: column;
+        }
+        .page3{
+            width: 100%;
+            height: 900px;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            flex-direction: column;
+        }
+        .page3left{
+            width: 70%;
+            height: 100%;
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            flex-direction: column;
+          }
+          .page3right{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          }
+          .page4{
+            width: 100%;
+            height: 1600px;
+            background-color: black;
+            display: flex;
+        }
+        .novosty1{
+            max-width: 40%; 
+            height: auto; 
+            border-radius: 20px; 
+            margin-top: 30px;
+        }
+        .page4left{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          }
+          .icon{
+            max-width: 18px;
+          }
+          .osebe{
+            margin-right: 150px;
+          }
+          .vuz{
+            max-width: 100%; 
+            height: auto;
+          }
+          .logoIlya{
+            margin-left: 10px;
+            max-width:100%;
+            max-height: 100%;
+          }
+@media screen and (max-width: 1100px){
+    .page2{
+        flex-direction: column;
+        height:1000px;
+    }
+    .page2left{
+        width: 100%;
+      }
+      .page2right{
+        width: 100%;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction:row;
+      }
+    .top{
+        height: 70px;
+    }
+    .shapka{
+        height: 70px;
+    }
+
+    .base{
+
+            width: 100%;
+            height: 900px;
+            justify-content: center;
+    }
+    a{
+        font-size:15px;
+    }
+    .icon{       
+        display: none; 
+    }
+    .osebe{
+        margin-right: 50px;
+    }
+    .vuz{
+        max-width: 100%;
+    }   
+}
+@media (max-width: 500px) {
+    .page2{
+        flex-direction: column;
+        height: 550px;
+    }
+    .page2left{
+        width: 100%;
+      }
+      .page2right{
+        width: 100%;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction:row;
+      }
+      .vuz{
+        max-width: 100%;
+    }
+    .base{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 1000px;
+        background-image: url('kai2.png');
+    }
+    .myportfolio{
+        width: 50%;
+        height:auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .logoIlya{
+        display: none;
+    }
+    .moiraboty1{
+        margin-left: 10px;
+    }
+    .osebe{
+        margin-right: 6px;
+        color: red ;
+    }
+    .top{
+        height: 50px;
+    }
+    .shapka{
+        height: 50px;
+    }
+    .obrazovanie{
+        margin-right: 10px;
+    }
+    .page3{
+        flex-direction: column;
+    }
+    .page3left{
+        width: 100%;
+        flex-direction:row; 
+        align-items: center;
+        justify-content: center;
+        flex-direction:row;
+        height: 50%;
+      }
+      .page3right{
+        width: 100%;
+        height: auto;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction:row;
+      }
+      .novosty1{
+        max-width: 80%;
+      }
+  }
